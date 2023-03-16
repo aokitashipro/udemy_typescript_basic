@@ -1,3 +1,4 @@
+"use strict";
 // 一般的な関数
 const funcTest = (int) => {
     return int;
