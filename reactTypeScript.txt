@@ -1,0 +1,31 @@
+ReactxTypeScript
+
+$ npx create-react-app --template typescript myapp
+
+【初心者】React × TypeScript 基本の型定義
+https://zenn.dev/ogakuzuko/articles/react-typescript-for-beginner
+
+TypeScript 学習記録 #8（Reactに関わる型定義）
+https://zenn.dev/ogakuzuko/articles/learn-typescript-8
+
+型のインポート
+import React from "react"
+
+github.com/iamshaunjp/vue-with-typescript
+
+関数コンポーネントの型定義
+React.VFC (こっち推奨 Void Function Component
+React.FC
+
+propsあり
+propsに直接型注釈を指定するパターン
+React.VFC<P>のジェネリック型<P>として型を指定するパターン
+
+
+useState
+
+eventオブジェクト
+React.ChangeEvent<HTMLInputElement>
+など
+
+近隣報酬

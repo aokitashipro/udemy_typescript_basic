@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import UseStateComponent from './components/UseStateComponent';
+import EventComponent from './components/EventComponent';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      テスト
+      <UseStateComponent />
+      <EventComponent />
     </div>
   );
 }
